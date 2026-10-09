@@ -60,7 +60,7 @@
 &kp N1          &kp N2              &kp N3                  &kp N4                   &kp N5                                                &kp N6     &kp N7              &kp N8         &kp N9                &kp N0
 &kp EQUAL       &kp MINUS           &kp ASTRK               &kp SLASH                &kp APOS             &kp UNDER            &kp DELETE  &kp GRAVE  &kp LEFT            &kp DOWN       &kp UP_ARROW          &kp RIGHT
 &kp LEFT_BRACE  &kp LS(LEFT_BRACE)  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &kp LS(RIGHT_BRACE)  &kp RIGHT_BRACE      &kp ESCAPE  &trans     &kp RA(LEFT_ARROW)  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp RA(RIGHT_ARROW)
-&trans          &trans              &trans                  &trans                   &kp C_AC_ZOOM_IN     &trans               &trans      &trans                                                              &kp PRINTSCREEN
+&trans          &trans              &trans                  &trans                   &trans               &trans               &trans      &trans                                                              &kp PRINTSCREEN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -93,6 +93,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
         };
 
         SCROLL {
