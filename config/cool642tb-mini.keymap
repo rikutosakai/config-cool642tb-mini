@@ -48,7 +48,7 @@
             bindings = <
 &kp Q    &kp W         &kp E         &kp R             &kp T                                           &kp Y        &kp U  &kp I        &kp O       &kp P
 &kp A    &kp S         &kp D         &kp F             &kp G        &kp LC(Y)           &kp BACKSPACE  &kp H        &kp J  &kp K        &kp L       &kp SEMICOLON
-&kp Z    &kp X         &kp C         &kp V             &kp B        &to 4               &kp B          &kp N        &kp M  &lt 2 COMMA  &kp PERIOD  &lt 4 SLASH
+&kp Z    &kp X         &kp C         &kp V             &kp B        &kp CAPSLOCK        &kp B          &kp N        &kp M  &lt 2 COMMA  &kp PERIOD  &lt 4 SLASH
 &kp TAB  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_CONTROL  &lt 5 SPACE  &kp LEFT_SHIFT      &kp RSHFT      &lt 1 ENTER                                  &kp BACKSLASH
             >;
 
